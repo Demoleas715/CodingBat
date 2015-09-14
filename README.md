@@ -1,0 +1,2 @@
+# CodingBat
+Competitive Programming Attempt
