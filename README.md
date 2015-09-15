@@ -1,2 +1,2 @@
 # CodingBat
-Competitive Programming Attempt
+CodingBat challenges
