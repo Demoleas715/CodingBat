@@ -1,4 +1,11 @@
 """Front Back"""
-word = input("What's your word?")
-midVar = word[1:len(word)-1]
-print(word[len(word)-1] + midVar + word[0])
+"""var = input("What's your word?")
+midVar = var[1:len(var)-1]
+print(var[len(var)-1] + midVar + var[0])"""
+
+def front_back(var):
+	if len(var) <=1:
+		return var
+
+	midVar = var[1:len(var)-1]
+	return var[1:len(var)-1] + midVar +var[0]
